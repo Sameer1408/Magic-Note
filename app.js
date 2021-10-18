@@ -40,7 +40,7 @@ function shownote() {
         html += `   <div class="card my-2 mx-4 cardnote" style="width: 18rem;">
        
         <div class="card-body ">
-          <h5 class="card-title">Note ${ele.title}</h5>
+          <h5 class="card-title">${ele.title}</h5>
           <p class="card-text">${ele.note}</p>
           <button id="${ind}" onclick="delet(this.id)" class="btn  btn-outline-danger">DELETE</button>
         </div>
